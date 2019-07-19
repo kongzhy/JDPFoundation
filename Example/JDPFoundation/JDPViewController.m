@@ -7,6 +7,7 @@
 //
 
 #import "JDPViewController.h"
+#import <JDPFoundation/JDPFoundation-umbrella.h>
 
 @interface JDPViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"%@", [JDPRuntimeUtil classNameWithClass:self.class]);
 }
 
 - (void)didReceiveMemoryWarning

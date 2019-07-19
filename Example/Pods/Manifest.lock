@@ -1,0 +1,16 @@
+PODS:
+  - JDPFoundation (0.1.0)
+
+DEPENDENCIES:
+  - JDPFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  JDPFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JDPFoundation: 001ee0632f47b6dbdb9973d2b59cdb1f193cbbae
+
+PODFILE CHECKSUM: 78a98ee001e84ad4a906bb6ee32a8238f2c57cc4
+
+COCOAPODS: 1.6.1
